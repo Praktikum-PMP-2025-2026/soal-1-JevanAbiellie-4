@@ -21,7 +21,7 @@ void printParenthesis(int n){
 void _printParenthesis(int pos, int n, int open, int close){
     static char str[MAX_SIZE];
     if (close == n){    
-        printf("%s \n", str);
+        printf("%s\n", str);
         return;
     }
     else {
